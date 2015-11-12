@@ -79,6 +79,8 @@ int main()
 
    sem_destroy(&produce); //destruye semaforo 
    sem_destroy(&consume); //destruye semaforo
+
+   cout << "FIN\n";
   
    return 0 ; 
 }
